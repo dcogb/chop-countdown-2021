@@ -1,0 +1,35 @@
+#countdown {
+  overflow: auto;
+  width: 400px;
+  padding: 10px;
+}
+
+#countdown .description,
+#countdown .time li .label {
+  font-size: 0.8em;
+}
+
+#countdown .time {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+#countdown .time li {
+  float: left;
+  padding: 0 10px;
+  text-align: center;
+}
+
+#countdown .time li:first-child {
+  padding-left: 0;
+}
+
+#countdown .time li span {
+  font-size: 1.2em;
+}
+
+#countdown .live {
+  display: none;
+  font-weight: bold;
+}
