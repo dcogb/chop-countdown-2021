@@ -13,7 +13,7 @@ query CurrentService {
 
 async function startCountdown() {
   // Fetch the current or next service data
-  const service = await fetch("https://mvcog.online.church/graphql", {
+  const service = await fetch("https://dcogb.online.church/graphql", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
