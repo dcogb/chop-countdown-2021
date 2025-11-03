@@ -33,7 +33,7 @@ async function startCountdown() {
   }
 
   // Set the service title
-  // document.getElementById("serviceTitle").innerText = service.data.currentService.content.title;
+  document.getElementById("serviceTitle").innerText = service.data.currentService.content.title;
 
   // Set the date we're counting down to
   const startTime = new Date(service.data.currentService.startTime).getTime();
