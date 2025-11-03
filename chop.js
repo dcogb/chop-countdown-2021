@@ -47,7 +47,7 @@ async function startCountdown() {
     if (now >= startTime && now <= endTime) {
       clearInterval(intervalId);
       document.getElementById("countdown").innerHTML =
-        "<div class='live'><a href='https://mvcog.online.church/' target='_blank'>We are Live. Join Us Online</a></div>";
+        "<div class='live'><a href='https://dcogb.online.church/' target='_blank'>We are Live. Join Us Online</a></div>";
       return;
     }
 
